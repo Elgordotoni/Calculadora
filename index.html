@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <form action="" class="form">
+    <h1 class="form--title">Calcula tu descuento</h1>
+    <div class="form--container">
+      <div class="form--group">
+        <input type="number" id="monto" class="form--input" placeholder=" ">
+        <label for="monto" class="form--label">Ingresa Monto</label>
+        <span class="form--line"></span>
+        <span class="error-message" id="valorError"></span>
+      </div>
+      <div class="form--group">
+        <input type="number" id="porcentaje" class="form--input" placeholder=" ">
+        <label for="porcentaje" class="form--label">Ingresa Porcentaje</label>
+        <span class="form--line"></span>
+        <span class="error-message" id="valorError"></span>
+      </div>
+      <div class="form--group">
+        <input type="number" id="cuotas" class="form--input" placeholder=" ">
+        <label for="cuotas" class="form--label">Ingresa Cantidad de cuotas</label>
+        <span class="form--line"></span>
+        <span class="error-message" id="valorError"></span>
+      </div>
+      <div class="form--group">
+        <input type="number" id="tope" class="form--input" placeholder=" ">
+        <label for="tope" class="form--label">Ingresa tope</label>
+        <span class="form--line"></span>
+        <span class="error-message" id="valorError"></span>
+      </div>
+
+
+      <div class="result--container" id="resultContent">
+        <div class="result--group">
+          <div id="primeResult"></div>
+        </div>
+        <div class="result--group">
+          <div id="restResults"></div>
+        </div>
+      </div>
+
+
+    </div>
+  </form>
+  <script src="calculadora.js"></script>
+</body>
+
+</html>
+
+
